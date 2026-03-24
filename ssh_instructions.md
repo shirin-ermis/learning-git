@@ -74,7 +74,7 @@ Now, going to GitHub.com, click on your profile icon in the top right corner to 
 
 Now that we’ve set that up, let’s check our authentication again from the command line.
 
-`$ ssh **-T** git@github.com`
+`$ ssh -T git@github.com`
 
 `Hi Vlad! You've successfully authenticated, but GitHub does not provide shell access.`
 
@@ -85,7 +85,7 @@ Good! This output confirms that the SSH key works as intended. We are now ready 
 ```bash
 Host github.com
   AddKeysToAgent yes
-        IgnoreUnknown UseKeychain # This line solved a problem with usekeychain option
+  IgnoreUnknown UseKeychain # This line solved a problem with usekeychain option
   UseKeychain yes
   IdentityFile ~/.ssh/id_ed25519
 ```
