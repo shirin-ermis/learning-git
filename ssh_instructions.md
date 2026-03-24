@@ -1,4 +1,4 @@
-    - Instructions (via Software Carpentry, the [full course on version control](https://swcarpentry.github.io/git-novice/) is very helpful if you have the time)
+Instructions (via Software Carpentry, the [full course on version control](https://swcarpentry.github.io/git-novice/) is very helpful if you have the time)
         
         To create an SSH key pair Vlad uses this command, where the `-t` option specifies which type of algorithm to use and `-C` attaches a comment to the key (here, Vlad’s email):
         
