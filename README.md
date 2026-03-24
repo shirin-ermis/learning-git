@@ -117,7 +117,7 @@ git can run locally and (when using platforms like Github or GitLab) sync with a
 
 ## Make your first commit
 
-1. Add a sentence to the README file. 
+1. Add a sentence to the `work.txt` file. 
 2. Stage and commit your changes locally.
 3. Push your changes to the remote repo.
 
