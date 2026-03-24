@@ -52,7 +52,7 @@ drwxr-xr-x 1 Vlad Dracula 197121   0 Jul 16 14:48 ../
 
 Now we have a SSH key pair and we can run this command to check if GitHub can read our authentication.
 
-`ssh **-T** git@github.com`
+`ssh -T git@github.com`
 
 `The authenticity of host 'github.com (192.30.255.112)' can't be established.
 RSA key fingerprint is SHA256:nThbg6kXUpJWGl7E1IGOCspRomTxdCARLviKw6E5SY8.
