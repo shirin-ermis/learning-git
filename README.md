@@ -121,6 +121,8 @@ git can run locally and (when using platforms like Github or GitLab) sync with a
 2. Stage and commit your changes locally.
 3. Push your changes to the remote repo.
 
+Once you the work on this new branch is ready, you might want to merge it into your new branch. This is what pull requests are for. I find it easiest to do this directly on github. Pull requests can get a bit messy so I will leave you to explore them once you had a bit of practice using git. (Remember that LLMs are your friends here! Just make sure you know what you're doing when an option includes anything like `--hard`)
+
 ## Start collaborating
 
 1. Make a new branch, switch to it and commit some changes.
