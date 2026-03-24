@@ -2,7 +2,7 @@ Instructions (via Software Carpentry, the [full course on version control](https
         
 To create an SSH key pair Vlad uses this command, where the `-t` option specifies which type of algorithm to use and `-C` attaches a comment to the key (here, Vlad’s email):
 
-`$ ssh-keygen **-t** ed25519 **-C** "vlad@tran.sylvan.ia"`
+`$ ssh-keygen -t ed25519 -C "vlad@tran.sylvan.ia"`
 
 If you are using a legacy system that doesn’t support the Ed25519 algorithm, use: `$ ssh-keygen -t rsa -b 4096 -C "your_email@example.com"`
 
@@ -41,7 +41,7 @@ The “identification” is actually the private key. You should never share it.
 
 Now that we have generated the SSH keys, we will find the SSH files when we check.
 
-`ls **-al** ~/.ssh`
+`ls -al ~/.ssh`
 
 `drwxr-xr-x 1 Vlad Dracula 197121   0 Jul 16 14:48 ./
 drwxr-xr-x 1 Vlad Dracula 197121   0 Jul 16 14:48 ../
